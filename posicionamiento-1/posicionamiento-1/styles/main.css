@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    padding: 30px;
+    border: solid;
+}
+.hija1 {
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.hija2 {
+    background-color: green;
+    
+    left: 150px;
+    bottom: 320px;
+}
+
+.hija3 {
+    background-color: orangered;
+    
+    left: 180px;
+    bottom: 240px;
+}
+
+.madre {
+    position: relative;
+}
+
+.box {
+    position: absolute;
+}
